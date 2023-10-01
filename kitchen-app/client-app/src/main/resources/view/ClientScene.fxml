@@ -11,7 +11,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane fx:id="root" prefHeight="623.0" prefWidth="1064.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.controller.ClientSceneController">
    <children>
       <Label layoutX="470.0" layoutY="14.0" text="Kitchen App">
@@ -32,7 +31,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="txtId" editable="false" layoutX="488.0" layoutY="94.0" prefHeight="26.0" prefWidth="573.0" />
+      <TextField fx:id="txtId" alignment="CENTER" editable="false" layoutX="488.0" layoutY="94.0" prefHeight="26.0" prefWidth="573.0" />
       <Label alignment="CENTER" layoutX="488.0" layoutY="135.0" prefHeight="17.0" prefWidth="573.0" text="NAME">
          <font>
             <Font size="14.0" />
