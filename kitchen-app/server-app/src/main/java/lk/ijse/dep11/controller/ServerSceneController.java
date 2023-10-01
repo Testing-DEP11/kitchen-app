@@ -21,7 +21,7 @@ public class ServerSceneController {
         tblOrders.getColumns().get(0).setCellValueFactory(new PropertyValueFactory<>("id"));
         tblOrders.getColumns().get(1).setCellValueFactory(new PropertyValueFactory<>("burgerQty"));
         tblOrders.getColumns().get(2).setCellValueFactory(new PropertyValueFactory<>("subQty"));
-        tblOrders.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("hotDohQty"));
+        tblOrders.getColumns().get(3).setCellValueFactory(new PropertyValueFactory<>("hotDogQty"));
         tblOrders.getColumns().get(4).setCellValueFactory(new PropertyValueFactory<>("cokeQty"));
 
 //        new Thread(() -> startServer()).start();
