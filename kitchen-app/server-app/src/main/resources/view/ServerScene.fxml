@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="root" prefHeight="567.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.controller.ServerSceneController">
+   <children>
+      <Label layoutX="196.0" layoutY="23.0" text="Server App">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblOrders" layoutX="34.0" layoutY="72.0" prefHeight="405.0" prefWidth="694.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="95.0" text="BURGER QTY" />
+            <TableColumn prefWidth="95.0" text="SUB QTY" />
+            <TableColumn prefWidth="95.0" text="HOT DOG QTY" />
+            <TableColumn prefWidth="104.0" text="COKE QTY" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnCloseOrder" layoutX="200.0" layoutY="500.0" mnemonicParsing="false" onAction="#btnCloseOrderOnAction" style="-fx-background-color: orange;" text="CLOSE ORDER" />
+   </children>
+</AnchorPane>
