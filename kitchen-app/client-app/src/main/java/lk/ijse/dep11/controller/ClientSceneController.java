@@ -6,6 +6,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.dep11.Customers;
+import lk.ijse.dep11.Orders;
 
 
 import java.util.List;
@@ -55,6 +56,8 @@ public class ClientSceneController {
         txtName.clear();
         txtContact.clear();
         btnNew.fire();
+
+        var orders = new Orders(txtId.getText().strip(), spnBurger.getValue(), spnSubmarine.getValue(), spnHotDog.getValue(), spnCoke.getValue());
 
     }
 
